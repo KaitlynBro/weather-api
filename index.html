@@ -2,141 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Mia's</title>
+	<title>Weather API</title>
 	<link rel="stylesheet" href="public/styles/style.css">
-	<script src="https://use.fontawesome.com/b13619d841.js"></script>
 </head>
 <body>
-<header>
-	<nav> <!--display flex, and space-inbetween on this guy-->
-		<ul>
-			<li>Mia's</li>
-		</ul>
-		<ul>
-			<li>Menu</li>
-			<li>Gallery</li>
-			<li>Specials</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
-	<h1>Mia's</h1>
-	<button>See Menu</button>
-</header>
+	<header>
+		<h1>Toronto Weather</h1>
+	</header>
 
-<section>
-	<h2>Menu</h2>
-	<div> <!--opening div that holds all menu items **REMEMBER TO DO SPACE EVENLY ON THIS-->
-		<div>
-			<h4>Lorem ipsum dolor sit amet......$25.50</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo.</p>
+	<main id="weatherInfo">
+	</main>
 
-			<h4>Lorem ipsum dolor sit amet......$25.50</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo.</p>
-
-			<h4>Lorem ipsum dolor sit amet......$25.50</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo.</p>
-		</div>
-
-		<div>
-			<h4>Lorem ipsum dolor sit amet......$25.50</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo.</p>
-
-			<h4>Lorem ipsum dolor sit amet......$25.50</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo.</p>
-
-			<h4>Lorem ipsum dolor sit amet......$25.50</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo.</p>
-		</div>
-	</div> <!--closing div that holds all menu items-->
-</section>
-
-<section>
-	<h2>Gallery</h2>
-	<div> <!--opening div that holds all gallery items-->
-		<div><!--first column of images-->
-			<img src="assets/cake.jpg" alt="">
-			<img src="assets/cake.jpg" alt="">
-		</div>
-
-		<div> <!--second column of images-->
-			<div> <!--first row of images in column 2-->
-				<img src="assets/cake.jpg" alt="">
-				<img src="assets/cake.jpg" alt="">
-			</div>
-			<div> <!--second row of images in column 2-->
-				<img src="assets/cake.jpg" alt="">
-				<img src="assets/cake.jpg" alt="">
-			</div>
-		</div>
-	</div> <!--closing div that holds all gallery items-->
-</section>
-
-<section>
-	<h2>Weekly Specials</h2>
-	<div>
-		<img src="assets/cake.jpg" alt="">
-		<img src="assets/cake.jpg" alt="">
-		<img src="assets/cake.jpg" alt="">
-		<img src="assets/cake.jpg" alt="">
-		<img src="assets/cake.jpg" alt="">
-		<img src="assets/cake.jpg" alt="">
-		<img src="assets/cake.jpg" alt="">
-	</div>
-</section>
-
-<section>
-	<h2>Contact</h2>
-	<form action=""> <!--displa flex-->
-		<div> <!--display flex, flex direcion column-->
-			<input type="text" placeholder="Name">
-			<input type="text" placeholder="Email">
-		</div>
-		<div>
-			<textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-		</div>
-	</form>
-	<div>
-		<i class="fa fa-twitter" aria-hidden="true"></i>
-		<i class="fa fa-facebook" aria-hidden="true"></i>
-		<i class="fa fa-linkedin" aria-hidden="true"></i>
-	</div>
-</section>
-
-<footer>
-	<div> <!--opening div for footer content-->
-		<div>
-			<h4>Information</h4>
-			<div>
-				<p><i class="fa fa-phone" aria-hidden="true"></i> Call Us</p>
-				<p>905-905-5099</p>
-			</div>
-			<div>
-				<p><i class="fa fa-map-marker" aria-hidden="true"></i> Find Us</p>
-				<p>1234 Leslie Lane, Toronto, ON</p>
-			</div>
-		</div>
-
-		<div>
-			<h4>Hours</h4>
-			<div>
-				<p>Mon-Fri</p>
-				<p>12pm-10pm</p>
-			</div>
-			<div>
-				<p>Sat-Sun</p>
-				<p>12pm-1am</p>
-			</div>
-		</div>
-
-		<div>
-			<h4>Subscribe</h4>
-			<input type="text" placeholder="Email">
-		</div>
-	</div> <!--closing div for footer content-->
-</footer>
-
-
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="public/scripts/app.js"></script>
 </body>
 </html>
